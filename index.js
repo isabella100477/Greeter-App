@@ -28,3 +28,27 @@
  *   c. The tests are CASE sensitive, so you MUST console.log('Good Night!') with
  *      the exact case.
  */
+
+//node index.js in shell
+//to console.log()
+
+function greet(hours){
+if (hours >= 0 && hours <= 11) {
+console.log('Good Morning!')
+}
+else if (hours >= 12 && hours <= 16) {
+console.log('Good Afternoon!')
+}
+else if (hours >= 17 && hours <= 21) {
+console.log('Good Evening!')
+}
+else if (hours >= 22 && hours <= 24) {
+console.log('Good Night!')
+}
+}
+
+
+
+
+
+
